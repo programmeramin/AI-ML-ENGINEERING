@@ -65,6 +65,5 @@ class Student:
 
 
 student1 = Student("Ayesha", 92)
-
 student1.display_info()
 

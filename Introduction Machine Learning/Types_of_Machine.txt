@@ -1,0 +1,9 @@
+Type of machine learning
+
+1. Supervised
+2. Un-Supervised
+3. Reenforce
+
+
+1. Classification => categorical value like as Tiger => Man => Bird => Dog => Cate
+2. Regression Contineous Value => Nagative value theke positive infinte value hote pare

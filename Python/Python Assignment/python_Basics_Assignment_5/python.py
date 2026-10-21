@@ -21,7 +21,7 @@ class ShoppingCart:
     # Part B: 2. Remove Item
     def remove_item(self, price):
         if price in self.items:
-            self.items.remove(price)
+            self.items.remove(price)  
             print(f"{price} removed from the cart.")
         else:
             print(f"{price} is not found in the cart.")
@@ -101,7 +101,6 @@ cart2.remove_item(800)
 
 # Display second cart
 cart2.display_cart()
-
 
 # Combine two carts using + operator
 combined_cart = cart1 + cart2

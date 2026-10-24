@@ -76,10 +76,9 @@ df["Age"] = df["Age"].fillna(age_median)
 print("\nMissing values after handling:")
 print(df.isnull().sum())
 
-
-# ======================================================================
+# =====================================
 # Task 3: Univariate Analysis
-# ======================================================================
+# =====================================
 section("Task 3: Univariate Analysis")
 
 # --- Survival Rate ---
@@ -122,9 +121,9 @@ save_plot("3_age_histogram.png")
 print("\nNote: the tall spike near 28 comes from filling missing ages with the median.")
 
 
-# ======================================================================
+# ===========================================
 # Task 4: Bivariate and Multivariate Analysis
-# ======================================================================
+# ===========================================
 section("Task 4: Bivariate and Multivariate Analysis")
 
 # --- Survival by Sex ---
@@ -222,9 +221,9 @@ print("\nPclass distribution within each port (shows why Cherbourg did better):"
 print(pd.crosstab(df["Embarked"], df["Pclass"], normalize="index").round(2))
 
 
-# ======================================================================
+# ===============================
 # Task 5: Conclusion and Insights
-# ======================================================================
+# ===============================
 section("Task 5: Conclusion and Insights")
 
 print(

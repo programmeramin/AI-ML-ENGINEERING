@@ -29,7 +29,6 @@ def section(title):
     print(title)
     print("=" * 70)
 
-
 # ======================================================================
 # Task 1: Data Loading and Initial Inspection
 # ======================================================================
@@ -48,7 +47,6 @@ print(df.describe())
 
 print("\nMissing values per column:")
 print(df.isnull().sum())
-
 
 # ======================================================================
 # Task 2: Handling Missing Values
